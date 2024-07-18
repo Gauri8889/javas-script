@@ -19,4 +19,4 @@ console.log(emp.account.acc_balance)
 console.log(emp.array[2]);
 emp.fun()
 console.log(emp.id)
-console.log(emp.name)
+console.log(emp.name) 
