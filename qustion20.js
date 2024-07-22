@@ -6,4 +6,4 @@ function Demo(){
     }
     return sum;
 }
-console.log(Demo())
+console.log(Demo()) 
