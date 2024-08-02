@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" onsubmit="return add()">
+        <label for="">Num1</label>
+        <input type="text" id="num1"><br><br>
+
+        <label for="">num 2</label>
+        <input type="text" id="num2"><br><br>
+        <input type="submit">
+   
+    </form>
+    <h1 id="answer"></h1>
+        <script>
+            function add(){
+                let num1 = parseInt(document.getElementById('num1').value)
+                let num2 = parseInt(document.getElementById('num2').value)
+                let ans = num1 + num2
+                document.getElementById('answer').innerHTML=ans
+
+                return false;
+            }
+        </script>
+</body>
+</html>
