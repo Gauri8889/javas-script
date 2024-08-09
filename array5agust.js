@@ -22,7 +22,7 @@
 //destructuring fuction
 
 let{empname,empage}={
-    emp_name :"khushi",
-    emp_dest:"HR"
+    empname :"khushi",
+    empdest:"HR"
 }
 console.log(empname)
